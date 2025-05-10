@@ -37,3 +37,5 @@ pip install -r requirements.txt
 python app.py &
 python infer.py
 ```
+### Small note
+Some files have the username as `suman muralidhar`, the laptop belongs to my wife and I forgot to change the username.
