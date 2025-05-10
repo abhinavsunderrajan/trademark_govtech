@@ -11,9 +11,9 @@ LORA finetune of Qwen2-VL-2B-Instruct model.
 
 ## Other considerations
 1. To make inference faster I always use VLLM. I have not added it to the project as it is out of scope and also needs to run on GPU.
-2. As mentioned above, due to lack of time I did not have the time to cherry pick examples for image description accuracy imporvements. This is left for future work.
+2. As mentioned above, due to lack of time I did not cherry pick examples for image description accuracy imporvements and formating of english `wordsInMark`. This is left for future work.
 3. I have also added a bonus evaluation section to compare fuzzy text similarity between groundth truth and predicted in the ./notebooks/Qwen2.5.ipynb notebook.
-4. Finally I have tried only LORA based finetuning. To improve accuracy I would have done full finetuning, full finetuning+freezing vision layer etc. This is left for future work.
+4. Finally I have tried only LORA based finetuning. To improve accuracy I would have tried full finetuning, full finetuning+freezing vision layer etc. This is left for future work.
 
 
 ## Containerization
